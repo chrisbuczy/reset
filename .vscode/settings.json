@@ -1,0 +1,6 @@
+{
+    "python.analysis.autoImportCompletions": true,
+    "C_Cpp.errorSquiggles": "enabled",
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 1,
+}

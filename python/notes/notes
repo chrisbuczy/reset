@@ -1,0 +1,349 @@
+
+#If you want to display a message using the contents of a variable, you can embed values in a string using %s, which is like a 
+#marker for a value that you want to add later
+#myscore = 1000
+#message = 'I scored %s points'
+#print(message % myscore)
+#nums = 'What did the number %s say to the number %s? Nice belt!!'
+#print(nums % (0, 8))
+# first_name = 'Chrisitian '
+# last_name = 'Buczynski '
+# message = 'Hi there, %s %s'
+# print(message % (first_name, last_name))
+
+#muliplying strings
+#spaces = ' ' * 25
+#print('%s 12 Butts Wynd' % spaces)
+#print('%s Twinklebottom Heath' % spaces)
+#print('%s West Snoring' % spaces)
+#print()
+#print()
+#print('Dear Sir')
+#print()
+#print('I wish to report that tiles are missing from the')
+##print('outside toilet roof.')
+#print('I think it was bad wind the other night that blew them away.')
+#print()
+#print('Regards')
+#print('Malcolm Dithering')
+
+#list are a group of items like a grou p of str, int, floats etc.
+#always write lists in square brackets and seperate the items with commas.
+#you can print a certain index from that list by doing something like this
+#numbers = [1, 2, 3, 4, 5]
+#print(numbers[1])
+#this would print the number 2 because lists start from index 0
+#you can also change the number by doing this
+#numbers[1] = 5 this would print [5, 2, 3, 4, 5]
+#you can also print numbres from 1 index to the other like this
+#print(numbers[2:5]) this would print numbers 3 to 5
+#you can also combine lists like this
+#numbers = [1, 2, 3, 4, 5]
+#letters = ['a', 'b', 'c', 'd']
+#print(numbers + letters)
+#you can add items in a list with the .append function like this
+#numbers.append(6) would add 6 to the end
+#to remove items from a list you hav to use the .del command (short for delete)
+#for example
+#del numbers[3]
+#print numbers
+#this would print [1, 2, 3, 5]
+#you can also repeat lists by using *. for example,
+#numbers = [1, 2]
+#print(numbers * 5) would print
+#1, 2, 1, 2, 1, 2, 1, 2, 1, 2
+#but you cant subtract or divide lists cause it will lead to an error
+#you also can add anything else to a list thats not a list
+
+#A tuple is like a list that uses parentheses, as in this example:
+#numbers = (0, 1, 2, 3, 4)
+#print(numbers[3])
+#the difference between a tuple and a list is that tuples cant be changed once you create them
+
+# In Python, a map (also referred to as a dict, short for dictionary) is 
+# a collection of things, like lists and tuples. The difference between 
+# maps and lists or tuples is that each item in a map has a key and a 
+# corresponding value.
+#to get a keys value just do this
+# favorite_sports = {'Ralph Williams' : 'Football', 
+# 'Michael Tippett' : 'Basketball',
+# 'Edward Elgar' : 'Baseball',
+# 'Rebecca Clarke' : 'Netball',
+# 'Ethel Smyth' : 'Badminton',
+# 'Frank Bridge' : 'Rugby'}
+# favorite_sports.append ['Christian Buczynski' : 'Tennis']
+# print (favorite_sports)
+# print(favorite_sports['Rebecca Clarke'])
+#or you can delete a value by using its key ex.
+# favorite_sports = {'Ralph Williams' : 'Football', 
+# 'Michael Tippett' : 'Basketball',
+# 'Edward Elgar' : 'Baseball',
+# 'Rebecca Clarke' : 'Netball',
+# 'Ethel Smyth' : 'Badminton',
+# 'Frank Bridge' : 'Rugby'}
+# del favorite_sports['Ethel Smyth']
+# print(favorite_sports)
+#to replace a value in a map, we also use its key:
+# favorite_sports = {'Ralph Williams' : 'Football', 
+# 'Michael Tippett' : 'Basketball',
+# 'Edward Elgar' : 'Baseball',
+# 'Rebecca Clarke' : 'Netball',
+# 'Ethel Smyth' : 'Badminton',
+# 'Frank Bridge' : 'Rugby'}
+# del favorite_sports['Ethel Smyth']
+# favorite_sports['Ralph Williams'] = 'Ice Hockey'
+# print(favorite_sports)
+# you can also use the get method in a dictionarie.
+# this is like using the index function on a list or tuple.
+
+# if statements and else and whitespace
+# An if statement is 
+# made up of the if keyword, 
+# followed by a condition and 
+# a colon (:), as in if age > 20:. 
+# The lines following the colon 
+# must be in a block, and if 
+# the answer to the question 
+# is yes (or true, as we say in 
+# Python programming), the 
+# commands in the block will 
+# be run.
+# In Python, whitespace, such as a tab (inserted when you press 
+# the tab key) or a space (inserted when you press the spacebar), is 
+# meaningful. Code that is at the same position (indented the same 
+# number of spaces from the left margin) is grouped into a block, and 
+# whenever you start a new line with more spaces than the previous 
+# one, you are starting a new block that is part of the previous one.
+
+# if statements
+# You can combine conditions by using the keywords AND and OR, which 
+# produces shorter and simpler code.
+
+# variables with no values
+# just as we can assign numbers, strings, and lists to a variable, 
+# we can also assign nothing, or an empty value, to a variable. In 
+# Python, an empty value is referred to as None, and it is the absence 
+# of value. And its important to note that the value None is different 
+# from the value 0 because it is the absence of a value, rather than a 
+# number with a value of 0. The only value that a variable has when 
+# we give it the empty value None is nothing
+
+# we can convert a string into an integer or float using the int function or float function or bool for a boolean value
+# you can also convert a integer into a string using the str function
+# ex. number = int('10')
+
+# for loops
+# instead of typing out the numbers 1-5 you can write this code:
+
+# for item in range(0, 5):
+#     print (item)
+
+# an english version of this would be:
+# for each item in range(0 - 5):
+#     print (each item)
+#     x is equal to 0 1 2 3 4 because that is the range (0, 5)
+#     ``
+# the range function selects the numbers starting from the starting number (0) 
+# and ending the at the number before the ending number (5 is the end so the number would be 4)
+# The range function doesnt actually create a list of numbers; 
+# it returns an iterator, which is a type of Python object specially 
+# designed to work with loops.
+# However, if we combine range with 
+# list, we get a list of numbers.
+# print(list(range(10, 20)))
+# we will get:
+# [10, 11, 12, 13, 14, 15, 16, 17, 18, 19}
+
+# while loops:
+# So the steps of a while loop are as follows:
+# 1. Check the condition.
+# 2. Execute the code in the block.
+# 3. Repeat
+
+# functions:
+# function are made of 3 parts: the name, parameters and the body:
+# an example of a function is this:
+# def names(fname, lname):
+#     print('hello %s %s' % (fname, lname)
+# names('christian', 'buczynski')
+
+# this would print hello christian buczynski
+# in this case, "names" is the name of the function, "fname" and "lname" are the parameters and the body is the print statement.
+# you can only set the value of the parametres when you call the functions
+
+# scope:
+# If a variable is defined outside the function, it has a different 
+# scope.For example, lets define a variable before we create our 
+# function, and then try using it inside the function:
+
+# another_variable = 100
+# def variable_test2():
+#     first_variable = 10
+#     second_variable = 20
+#     return first_variable * second_variable * another_variable
+
+# in this code, even though the variables first_variable and 
+# second_variable cant be used outside the function, the variable 
+# another_variable (which was created outside the function) 
+# can be used inside it.
+
+# modules are a gorup of functions
+# lets say we wanted to import the time module to et time functions, to do that we type:
+# import time
+
+# now we could use its functions that the module contains like:
+
+# time.sleep
+# or
+# time.asctime 
+# which gives you the current time
+
+# objects and classes:
+# hapter 4 when we worked with the turtle—Pen.) 
+# 94 Chapter 8
+# To really understand how objects work in Python, we need to 
+# think about types of objects. Lets start with giraffes and sidewalks.
+# A giraffe is a type of mammal, which is a 
+# type of animal. A giraffe is also an animate 
+# object—its alive.
+# Now consider a sidewalk. Theres not 
+# much to say about a sidewalk other than 
+# its not a living thing. Lets call it an inanimate object (in other words, its not alive). 
+# The terms mammal, animal, animate, and 
+# inanimate are all ways of classifying things.
+# The main class is Things. Below the Things class, we have 
+# Inanimate and Animate. These are further broken down into just 
+# Sidewalks for Inanimate, and Animals, Mammals, and Giraffes for Animate.
+# we use classes to organize bits of python code
+# if a class is a part of another class, then its a child of that class, 
+# and the other class is its parent. Classes can be both children of and 
+# parents to other classes. In our tree diagram, the class above another 
+# class is its parent, and the class below it is its child. For example, 
+# Inanimate and Animate are both children of the class Things, meaning 
+# that Things is their parent
+# to make a class just print:
+
+# class example(parent):
+
+# the name of this class is example and in the brackets is the parent of this class.
+# to create a object in a class we write:
+
+# christian = example():
+#     pass
+
+# we use the pass command to tell python that there will be no more code under the class
+# this code tells python to create an object in the example class and assign it to the variable christian.
+# to add functions to a class just define the function under the class like this:
+
+# class example():
+#     def thisisaclassfunc():
+#         print('this is a class function')
+# pass
+
+# we can add characteristicas to each class to describe what it is and what it can do.
+# a characteristic is a trait that all of the member of the class (and its children) share.
+# these characteristics can be thought of as actions, or functions-
+# thigs that an object of that class can do.
+# you can also use functions from a different class in a new class like this
+
+# class thing():
+#     def exist(self):
+#         print('i exist')
+# class otherthing(thing):
+#     def exist2(self):
+#         self.exist
+# things = otherthing():
+# thing.exist2()
+
+# this would print:i exist
+# you can also initialize objects which is the same as adding characteristics(or properties) to something
+# to initialize an object you write __init__ (there are 2 underscores on each side)
+# use it like this:
+
+# class giraffes():
+#     def __init__(self, spots):
+#         self.giraffe_spots = spots
+
+# harold = giraffes(100)
+# print(harold.giraffe_spots)
+
+# this would print 100
+# important functions to know:
+# the abs function is the absoloute value of a number. which is the number without its sign.example:
+
+# print(abs(-10))
+
+# would print: 10
+# the bool function will convert a value into a boolean value. example
+
+# print(bool(None))
+# print(bool(1))
+
+# this would print False and True because a value of 0 = false and a value of anything other than 0 = true
+
+# input statements collect the value of what the user wrote in the terminal. example:
+
+# yearofbirth = input('year of birth:')
+# print yearofbirth
+
+# this would print whatever answer you typed in to the question year of birth:
+# the dir function prints any function that can be used for a value. example:
+
+# dir(['a', 'short', 'list'])
+
+# the help dunction shows a description of a  function. example.
+
+# help(abs)
+
+# would tell you what the function does.
+# the exec function executes code like this:
+
+# mysmallprogram = print('my small program')
+# exec(mysmallprogram)
+
+# this would print: my small program
+# the float function converts a string or number into a float. use it like this:
+
+# float = float('12')
+# print(float)
+
+# would print 12.0
+# the int function converts a string or float into an integer. like this:
+
+# print (int(123.456))
+
+# would print 123
+# the len function prints the length of an object. like this:
+
+# print(len('christian'))
+
+# would print: 9 because christian contains 9 characters
+# the max function prints the largest value in a string, tuple, or list. like this:
+
+# numbers = [1, 2, 3, 4, 5]
+# print(max(numbers))
+
+# would print: 5
+# the min function prints the smallest item in a list, string or tuple and is used the same as the max function
+# the sum function adds items in alist and returns the total. like this:
+
+# numbers = [1, 2, 3, 4, 5]
+# print(sum(numbers))
+
+# this would print: 15
+# important modules to know:
+# copy module:
+# with this module you can copy the characteristics of other objects like this:
+
+# import copy
+# class animal():
+#     def __init__(self, species, number_of_legs, colour):
+#         self.species = species
+#         self.number_of_legs = number_of_legs
+#         self.colour = colour
+
+# harry = animal('hippo', 4, 'grey')
+# harriet = copy.copy(harry)
+# print(harriet.species)
+
+# would print: hippo

@@ -1,0 +1,29 @@
+/* this is a comment */
+
+body {
+    background: #111111;
+}
+
+h1 {
+    color: white;
+    font-family: "Press Start 2P", "consolas", sans-serif;
+    border-top-style: dotted;
+    border-bottom-style: dotted;
+    border-left-style: double;
+    border-left-width: 10px;
+    border-left-color: silver
+}
+
+p {
+    color: #00ff73;
+    font-family: "consolas", sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: cyan dotted underline;
+    font-size: large;
+    border-style: outset;
+    border-width: 5px;
+    border-color: gold;
+    border-radius: 10px;
+    padding: 5px;
+}

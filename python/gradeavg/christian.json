@@ -1,0 +1,94 @@
+{
+    "Art": {
+        "final": {
+            "mark": 85.0,
+            "weight": 40
+        },
+        "midterm": {
+            "mark": 90.0,
+            "weight": 30.0
+        },
+        "unit1": {
+            "mark": 90.0,
+            "weight": 10
+        },
+        "unit2": {
+            "mark": 90.0,
+            "weight": 10
+        },
+        "unit3": {
+            "mark": 90.0,
+            "weight": 10
+        }
+    },
+    "Geography": {
+        "final": {
+            "mark": 92.0,
+            "weight": 40.0
+        },
+        "midterm": {
+            "mark": 81.0,
+            "weight": 30.0
+        },
+        "unit1": {
+            "mark": 80.0,
+            "weight": 10
+        },
+        "unit2": {
+            "mark": 80.0,
+            "weight": 10
+        },
+        "unit3": {
+            "mark": 80.0,
+            "weight": 10
+        }
+    },
+    "Math": {
+        "final": {
+            "mark": 95.0,
+            "weight": 40.0
+        },
+        "midterm": {
+            "mark": 91.0,
+            "weight": 30.0
+        },
+        "unit1": {
+            "mark": 60,
+            "weight": 10
+        },
+        "unit2": {
+            "mark": 90.0,
+            "weight": 10
+        },
+        "unit3": {
+            "mark": 80.0,
+            "weight": 10
+        }
+    },
+    "french": {
+        "final": {
+            "mark": 85,
+            "weight": 0.0
+        },
+        "midterm": {
+            "mark": 90,
+            "weight": 0.0
+        },
+        "unit1": {
+            "mark": 80,
+            "weight": 0
+        },
+        "unit2": {
+            "mark": 75,
+            "weight": 0
+        },
+        "unit3": {
+            "mark": 70,
+            "weight": 0
+        },
+        "unit4": {
+            "mark": 93,
+            "weight": 0
+        }
+    }
+}

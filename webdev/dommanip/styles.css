@@ -1,0 +1,12 @@
+#main-heading {
+    font-size: 2rem;
+    color: red;
+    
+}
+
+.list-items {
+    font-size: 1rem;
+    color: blue;
+    border: 1px solid;
+    border-color: black;
+}
