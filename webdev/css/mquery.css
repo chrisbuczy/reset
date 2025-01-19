@@ -1,0 +1,42 @@
+body {
+    color: red;
+}
+
+.title {
+    font-size: 6rem;
+}
+
+.subtitle {
+    font-size: 4rem;
+}
+
+/* always put media queries at bottom because code is read top to bottom */
+
+/* you can also specify which device like all, audio or only screen */
+/* if device has a width of 500px or less then execute this */
+@media all and (max-width: 1000px) {
+    body {
+        color: blue;
+    }
+}
+
+/* when printing execute this */
+@media print {
+    body {
+        color: green;
+    }
+}
+
+/* when width is larger than height execute this */
+@media (orientation: landscape) {
+    .title {
+        color: yellow;
+    }
+}
+
+/* you can also combine using and */
+@media (irentation: landscape) and (max-width: 500px) {
+    .subtitle {
+        color: black;
+    }
+}

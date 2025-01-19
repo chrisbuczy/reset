@@ -1,0 +1,27 @@
+/* padding is the space between the content of tag and border
+   margin is space from border to everything else
+*/
+
+
+#box1 {
+    border: 5px solid;
+    width: 250px;
+    height: 250px;
+    font-size: 22px;
+    background: greenyellow;
+
+    padding: 50px;
+    margin: 50px;
+}
+
+#box2 {
+    border: 5px solid;
+    width: 250px;
+    height: 250px;
+    font-size: 22px;
+    background: dodgerblue;
+
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px;
+}

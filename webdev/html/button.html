@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Button website</title>
+    </head>
+    <body>
+
+        <!--border radius is border thickness-->
+        <a href="https://google.com" target=_blank>
+            <button style="background-color: red; color: green; 
+            width: 100; height: 100; border-radius: 5px;">click me</button>
+        </a>
+
+        <!--this is how to add scripts directly into HTML-->
+        <button onclick="doSomething()" style="height: 500; width: 500">
+            click me for magic
+        </button>
+
+        <p id="test">hello</p>
+
+        <script>
+            function doSomething(){
+                document.getElementById("test").innerHTML = "Goodbye";
+            }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,52 @@
+{
+    "chem": {
+        "final": {
+            "mark": -1.0,
+            "weight": 0.0
+        },
+        "midterm": {
+            "mark": -1.0,
+            "weight": 0.0
+        }
+    },
+    "compsci": {
+        "final": {
+            "mark": -1.0,
+            "weight": 0.0
+        },
+        "midterm": {
+            "mark": -1.0,
+            "weight": 0.0
+        }
+    },
+    "english": {
+        "final": {
+            "mark": -1.0,
+            "weight": 0.0
+        },
+        "midterm": {
+            "mark": -1.0,
+            "weight": 0.0
+        }
+    },
+    "math": {
+        "final": {
+            "mark": -1.0,
+            "weight": 0.0
+        },
+        "midterm": {
+            "mark": -1.0,
+            "weight": 0.0
+        }
+    },
+    "physics": {
+        "final": {
+            "mark": -1.0,
+            "weight": 0.0
+        },
+        "midterm": {
+            "mark": -1.0,
+            "weight": 0.0
+        }
+    }
+}

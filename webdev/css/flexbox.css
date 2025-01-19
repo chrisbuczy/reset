@@ -1,0 +1,23 @@
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: aqua;
+}
+
+/* .content-align {
+    height: 250px;
+    display: flex;
+    align-content: center;
+    background-color: red;
+
+} */
+
+.sidenav {
+    height: 500px;
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    align-content: center;
+    background-color: yellow;
+    width: 200px;
+}

@@ -1,0 +1,25 @@
+/* normaly background repeats in squares
+   bg repeat stops that
+   bg-attachment: fixed makes it stay the same no matter how it's resized
+*/
+
+body {
+    font-size: x-large;
+    background-image: url(../media/bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+h1 {
+    background: linear-gradient(to right, orange, yellow);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+p {
+    background: linear-gradient(to left, skyblue, green);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}

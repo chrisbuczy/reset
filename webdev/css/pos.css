@@ -1,0 +1,53 @@
+#box1 {
+    border: 1px solid;
+    height: 300px;
+    width: 300px;
+    background-color: skyblue;
+
+    /* static is default 
+       relative is from top-left corner of previous element */
+    position: static;
+    position: relative;
+
+    top: 150px;
+    left: 150px;
+}
+
+#box2 {
+    border: 1px solid;
+    height: 100px;
+    width: 100px;
+    background-color: tomato;
+
+    /* absolute will first go to position of parent that is place non-statically
+       if there is no parent, page gets reordered as if it's not there
+       also it will move relative to top corner of page */
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+
+#box3 {
+    border: 1px solid;
+    height: 50px;
+    width: 50px;
+    background-color: green;
+
+    /* fixed is according to viewport no matter what */
+    position: fixed;
+    top: 0;
+    left: 50%;
+}
+
+#box4 {
+    border: 1px solid;
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+
+    /* will stay on view when scrolled by */
+    position: sticky;
+    top: 100px;
+    bottom: 50px;
+
+}

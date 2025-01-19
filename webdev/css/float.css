@@ -1,0 +1,14 @@
+
+/* makes everything below it wrap to the right of it */
+img {
+    float: left;
+}
+
+p {
+    font-size: large
+}
+
+/* this is used to get rid of the float */
+#secondp {
+    clear: left;
+}
